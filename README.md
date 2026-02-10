@@ -1,43 +1,30 @@
-## Project Overview
+## Meter UI Testing (Dummy UI)
 
-This project contains manual test cases and automation-ready scenarios
-for a Dummy Meter UI application.
+This project is created for learning and practice purposes.
 
-### Important Note
-- This UI is created only for learning and practice
-- No backend or real meter integration is used
+### About the Project
+- Dummy UI developed to simulate a Meter Management system
+- No backend or database integration
 - All validations are UI-level only
-- Test cases are documented in an Excel file (download to view)
+- Data is not persisted once the UI is closed
 
-### Test Coverage
+### Features Covered
 - Create Account
 - Login
 - Logout
 - Delete Account
 
-### Tools
-- Manual Testing
-- Robot Framework (for future automation)
-  
-# Meter UI Testing
+### Testing Approach
+- Manual test cases documented in Excel
+- Automation implemented using Robot Framework
+- Browser-based UI automation
 
-## Project Overview
-This project demonstrates manual and automation testing of a Meter UI application.
+### Folder Structure
+- TestCases – Manual test cases (Excel)
+- Automation – Robot Framework test scripts
+- Resources – Reusable keywords and variables
 
-## Modules Covered
-- Create Account
-- Login
-- Logout
-- Delete Account
-
-## Tools & Technologies
-- Manual Testing
+### Tools Used
 - Robot Framework
-- Python
-- UI Automation
-
-## Note
-This project uses a dummy UI created for learning and testing purposes.  
-It is not integrated with real meters or backend services.  
-All validations are UI-level only.
-
+- Browser Library
+- GitHub
