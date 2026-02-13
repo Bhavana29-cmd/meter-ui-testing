@@ -94,6 +94,8 @@ This project was built as a personal portfolio project to:
 
 This is a practice project created for learning and demonstration purposes only.  
 It does not represent any real-time product or organization.
+The UI used for automation is a locally created dummy application 
+and is not included in this repository.
 
 ---
 
