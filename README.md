@@ -1,90 +1,105 @@
-# Meter UI Testing (Dummy UI)
+# Web UI Automation Testing Project
 
-This project is created for learning and practice purposes to demonstrate manual and automation testing skills using a dummy Meter Management UI.
+## 📌 Project Overview
 
----
+This project demonstrates manual and automated testing of a sample web-based UI application.
 
-## 📌 About the Project
+The application is a dummy UI created for learning and practice purposes.  
+It is not connected to any real backend, database, or production system.
 
-- This is a **dummy UI** created only for testing practice
-- There is **no backend, database, or real meter integration**
-- All validations are **UI-level only**
-- Data is **not persisted** once the UI is closed and reopened
-- The project focuses on **test case design and automation**, not application functionality
+All validations are performed at UI level only.
 
 ---
 
-## 🔍 Features Covered
+## 🎯 Features Covered
 
-The following features are tested and automated:
+The following modules are tested:
 
 - Create Account
-- Login
+- Login Page
 - Logout
 - Delete Account
 
 ---
 
-## 🧪 Testing Approach
+## 🧪 Test Coverage
 
-### Manual Testing
-- Test cases are written in **Excel**
-- Covers both **positive and negative scenarios**
-- Clear test steps, expected results, and validations
+✔ Positive test cases  
+✔ Negative test cases  
+✔ Field validation scenarios  
+✔ Input validation (username, password rules)  
+✔ Navigation validation  
+✔ UI behavior verification  
 
-### Automation Testing
-- Manual test cases are automated using **Robot Framework**
-- Browser-based UI automation
-- Reusable keywords and test data are maintained separately
+Total Test Cases: 26
 
 ---
 
-## 📂 Project Structure
+## 🤖 Automation Details
 
-meter-ui-testing/
-│
-├── TestCases/
-│ └── Dummy_UI_TestCases.xlsx
-│
-├── Automation/
-│ ├── create_account.robot
-│ ├── login.robot
-│ ├── logout.robot
-│ └── delete_account.robot
-│
-├── Resources/
-│ ├── keywords.robot
-│ └── variables.robot
-│
-├── README.md
+Automation is implemented using:
 
+- Robot Framework
+- SeleniumLibrary
+- Python
+
+Test scripts are structured using:
+
+- Separate test case files
+- Resource files (keywords & variables)
+- Modular framework design
+
+---
+
+## 📁 Project Structure
+Automation/
+create_account.robot
+login.robot
+logout.robot
+delete_account.robot
+
+Resources/
+keywords.robot
+variables.robot
+
+TestCases.xlsx
+README.md
+
+
+---
 
 ## 🛠 Tools & Technologies Used
 
 - Robot Framework
-- Browser Library
-- Manual Test Case Design
-- GitHub for version control
+- SeleniumLibrary
+- Python
+- RIDE
+- GitHub
+- Excel (Test Case Documentation)
 
 ---
 
-## ⚠️ Important Note
+## 🚀 Purpose of This Project
 
-This project uses **dummy credentials and test data** only.  
-It is **not intended for real-world production use** and does not interact with actual meters or backend services.
+This project was built as a personal portfolio project to:
+
+- Practice UI test case writing
+- Implement automation using Robot Framework
+- Demonstrate framework structuring skills
+- Showcase QA skills publicly
 
 ---
 
-## 🎯 Purpose of the Project
+## 📌 Note
 
-- To practice **manual test case writing**
-- To learn **UI automation using Robot Framework**
-- To follow **basic test automation best practices**
-- To maintain a **testing portfolio on GitHub**
+This is a practice project created for learning and demonstration purposes only.  
+It does not represent any real-time product or organization.
 
 ---
 
 ## 👩‍💻 Author
 
-**Bhavana T**  
-Manual & Automation Testing (Robot Framework)
+Bhavana  
+QA Engineer | UI Automation Enthusiast  
+
+
